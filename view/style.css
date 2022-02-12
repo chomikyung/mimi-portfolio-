@@ -1,0 +1,22 @@
+	*{margin:0; padding:0;}
+	body{font-family:'NanumGothic','나눔고딕','Droid Sans',sans-serif;font-size:14px;color:#000; margin: 0;padding: 0;}
+	li{list-style:none;}		
+	img{border:0;vertical-align:top;}		
+	#wrap{width:100%;position:relative;margin:0 auto; background:#f7f7f7;}
+	#wrap h1{font-size:12px; height:35px; line-height:30px; text-align:center; font-family:normal; background:#565656; color:#fff;}
+	#wrap #banner{padding:0 25px;}
+	#wrap #banner .vis_frame
+		{width:1280px;
+		min-height:800px;
+		overflow:hidden;
+		position:relative;
+		margin:0 auto;}
+	#wrap #banner .vis_frame ul{position:absolute;left:0;top:0; }
+	#wrap #banner .vis_frame ul li{padding:0 8px; text-align:center;display:block;border:1px solid #f7f7f7;}
+
+	#wrap #b_control{position:absolute;right:0;top:5px;}
+	#wrap #b_bt a.left{position: absolute;left:19px;top:50%;}
+	#wrap #b_bt a.right{position:absolute;right:15px;top:50%;}
+	#wrap #pos{text-align:center;margin:10px 0;}
+	#wrap #pos span{display:inline-block;width:16px;height:16px; border-radius:50%;border:1px solid #ccc;margin:0 2px;}
+	#wrap #pos span.on{background:#e95c4b;}

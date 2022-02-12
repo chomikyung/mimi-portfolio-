@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<title>청파이엠티 솔류션앱</title>
+	
+	<link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>	
+	
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+
+
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" ></script>
+	<script type="text/javascript" src="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <style type="text/css">
+		html, body {margin: 0;padding: 0;}
+		* {box-sizing: border-box;}
+
+		.visual{position: relative; }
+			.visual button{position: absolute; z-index: 10; top: 50%; transform:translateY(-50%);width: 65px;height:65px;border-radius:100%;border:none;background:rgb(0,0,0,0.3);font-size: 0;color: transparent;}
+		.visual button:before{font-family:'xeicon';color:#fff; font-size:45px;}
+			.visual button.slick-prev{left:40px;}
+				.visual button.slick-prev:before{content:"\e93d";font-family:'xeicon'; }
+		
+			.visual button.slick-next{right:40px;}
+				.visual button.slick-next:before{content:"\e940";font-family:'xeicon';}
+
+		.slick-initialized .slick-slide{display: inline-block;  text-align: center!important;}
+		.slick-slide img { display: inline-block;  text-align: center !important;}
+		
+	</style>
+</head>
+	
+<body>
+	
+	<section class="visual">
+		<div><img src="../img/20160706_b.jpg" alt="청파"></div>
+		<div><img src="../img/20160706_b_02.jpg" alt="청파"></div>
+		<div><img src="../img/20160706_b_03.jpg" alt="청파"></div>	
+		<div><img src="../img/20160706_b_04.jpg" alt="청파"></div>
+	</section>
+	
+	<script type="text/javascript" >
+		$('.visual').slick();
+	</script>
+	
+</body>
+</html>
+
+
+
+
+
+
